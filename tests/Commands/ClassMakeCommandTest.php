@@ -10,6 +10,6 @@ class ClassMakeCommandTest extends TestCase
     /** @test */
     public function true_is_true()
     {
-        Artisan::call('make:class Hej/Pa/Dej');
+        Artisan::call('make:class Hej');
     }
 }
