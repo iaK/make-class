@@ -1,11 +1,11 @@
-# A package to create basic classes with tests in your Laravel app
+# A package to create custom classes with tests in your Laravel app
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/iak/make-class.svg?style=flat-square)](https://packagist.org/packages/iak/make-class)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/iak/make-class/run-tests?label=tests)](https://github.com/iak/make-class/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/iak/make-class/Check%20&%20fix%20styling?label=code%20style)](https://github.com/iak/make-class/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/iak/make-class.svg?style=flat-square)](https://packagist.org/packages/iak/make-class)
 
-Create a basic class at any path with an optinal test.
+Create a custom class at any path with an optinal test.
 
 ## Usage
 
