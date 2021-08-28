@@ -48,7 +48,7 @@ class MakeClassCommand extends GeneratorCommand
     {
         $file = File::exists(app_path('stubs/class.stub'))
             ? app_path('stubs/class.stub')
-            : './../stubs/class.stub';
+            : '/../stubs/class.stub';
 
         return with(
             $file,
