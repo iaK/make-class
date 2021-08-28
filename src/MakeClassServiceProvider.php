@@ -2,8 +2,8 @@
 
 namespace Iak\MakeClass;
 
-use Spatie\LaravelPackageTools\Package;
 use Iak\MakeClass\Commands\MakeClassCommand;
+use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class MakeClassServiceProvider extends PackageServiceProvider

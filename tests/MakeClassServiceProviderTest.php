@@ -2,7 +2,6 @@
 
 namespace Iak\MakeClass\Tests;
 
-use Iak\MakeClass\Tests\TestCase;
 use Illuminate\Support\Facades\File;
 
 class MakeClassServiceProviderTest extends TestCase

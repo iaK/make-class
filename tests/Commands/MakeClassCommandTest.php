@@ -2,10 +2,9 @@
 
 namespace Iak\MakeClass\Tests\Commands;
 
-use Illuminate\Support\Str;
 use Iak\MakeClass\Tests\TestCase;
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\Str;
 
 class MakeClassCommandTest extends TestCase
 {
