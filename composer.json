@@ -29,8 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Iak\\MakeClass\\": "src",
-            "Iak\\MakeClass\\Database\\Factories\\": "database/factories"
+            "Iak\\MakeClass\\": "src"
         }
     },
     "autoload-dev": {
@@ -50,10 +49,7 @@
         "laravel": {
             "providers": [
                 "Iak\\MakeClass\\MakeClassServiceProvider"
-            ],
-            "aliases": {
-                "MakeClass": "Iak\\MakeClass\\MakeClassFacade"
-            }
+            ]
         }
     },
     "minimum-stability": "dev",
