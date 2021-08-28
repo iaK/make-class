@@ -2,9 +2,9 @@
 
 namespace Iak\MakeClass\Commands;
 
-use Illuminate\Support\Str;
-use Illuminate\Support\Facades\File;
 use Illuminate\Console\GeneratorCommand;
+use Illuminate\Support\Facades\File;
+use Illuminate\Support\Str;
 
 class MakeClassCommand extends GeneratorCommand
 {
