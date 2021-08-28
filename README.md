@@ -40,6 +40,14 @@ php artisan vendor:publish --tab=stub
 
 And edit the ```stubs/class.stub``` file to your liking =) 
 
+## Installation
+
+You can install the package via composer:
+
+```bash
+composer require iak/make-class --dev
+```
+
 ## Testing
 
 ```bash
