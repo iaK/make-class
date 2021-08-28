@@ -3,7 +3,7 @@
 namespace Iak\MakeClass;
 
 use Spatie\LaravelPackageTools\Package;
-use Iak\MakeClass\Commands\ClassMakeCommand;
+use Iak\MakeClass\Commands\MakeClassCommand;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class MakeClassServiceProvider extends PackageServiceProvider
@@ -17,7 +17,15 @@ class MakeClassServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('make-class')
-            ->hasConfigFile()
-            ->hasCommand(ClassMakeCommand::class);
+            ->hasCommand(MakeClassCommand::class);
+    }
+
+    public function boot()
+    {
+        parent::boot();
+
+        $this->publishes([
+            __DIR__.'/stubs' => base_path('stubs'),
+        ], 'stub');
     }
 }
