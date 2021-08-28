@@ -36,7 +36,7 @@ class MakeClassCommand extends GeneratorCommand
     protected function createTest()
     {
         $this->call('make:test', [
-            'name' => Str::studly(Str::replace('\\', '/', $this->argument('name')))  . 'Test',
+            'name' => Str::studly(str_replace('\\', '/', $this->argument('name')))  . 'Test',
             '--unit' => true,
         ]);
     }
