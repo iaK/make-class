@@ -35,7 +35,7 @@ Use the ```--test``` option to create a corresponding test in ```test/Unit/Custo
 Publish the stub using:
 
 ```bash
-php artisan vendor:publish --tab=stub
+php artisan vendor:publish --tag=stub
 ```
 
 And edit the ```stubs/class.stub``` file to your liking =) 
